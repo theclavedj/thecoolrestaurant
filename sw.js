@@ -1,6 +1,6 @@
 const CACHE_NAME = 'my-cache-v1';
 // files to be cached
-let ulrsToCache = [
+let urlsToCache = [
     './',
     './index.html',
     './restaurant.html',
