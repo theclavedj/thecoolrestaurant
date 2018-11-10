@@ -13,7 +13,7 @@ let ulrsToCache = [
 
 self.addEventListener('install', event => {
   //perform install steps
-  event.waitUntill(
+  event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
       console.log('loaded cache');
       return cache.addAll(urlsToCache);
