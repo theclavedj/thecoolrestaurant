@@ -211,7 +211,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('/sw.js').then(function(reg) {
+    navigator.serviceWorker.register('sw.js').then(function(reg) {
       //registration successful
       console.log('service Worker registration successful');
     }).catch(function(err) {
