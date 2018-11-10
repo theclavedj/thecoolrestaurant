@@ -8,7 +8,8 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    return `https://theclavedj.github.io/thecoolrestaurant/data/restaurants.json`;
+    const port = 8000 // Change this to your server port
+    return `data/restaurants.json`;
   }
 
   /**
