@@ -19,6 +19,14 @@
     margin-top: 35px;
   }
 
+  .skipmap:focus {
+    position: relative;
+    padding: 0;
+    left: 0;
+    top: 0;
+  	color: white;
+  }
+
   #maincontent {
     height: auto;
   }
