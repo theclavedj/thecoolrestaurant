@@ -1,32 +1,44 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Restaurant Reviews
 
-## Project Overview: Stage 1
+As part of the FEND scholarship by Udacity and Google, for this project I've been provided with a restaurant website which wasn't properly configurated. For this project I had to update the site to match all types of viewports using responsive design (mobile, tablets, large screens), implement a11y (ARIA) features and most important, implement a map of all the available restaurants, also, I've deployed a Service Worker service to cache the content so the page can still be visited while offline.
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Installing from Github locally
 
-### Specification
+1. Clone the following using GIT
+   
+	-git clone https://github.com/theclavedj/thecoolrestaurant.git
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+2. Load index.html in your favorite browser.
 
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
-
-## Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+3. Explore the update website in all kind of viewports.
 
 
+## Accessing Online:
 
+To access updated website you can click in the following link to check the site: 
+
+https://theclavedj.github.io/thecoolrestaurant/
+
+## FAQ:
+
+- Use tab to see a11y shortcuts around the page and explore only critical parts of the website are being selected.
+
+- Use accessibility features such as VoiceOver to get description of each critical part of the website
+
+- Use dev tools to check how the website has been improved to match diferent types of viewports
+
+## Tools Used: 
+
+Vanilla JavaScript, ES6, ARIA, CSS for responsive design, HTML5, Leaflet, Mapbox, Service Worker.
+
+## Inspiration
+
+	* This project could be possible thanks to Udacity and Google, if you are interested, check: https://eu.udacity.com/course/front-end-web-developer-nanodegree--nd001
+	* Original repo: https://github.com/udacity/mws-restaurant-stage-1
+	* A free and great way to implement maps and geo-location in your site: https://www.mapbox.com/install/
+
+	* Great JS library for mobile interactive maps: https://leafletjs.com/
+
+	* ARIA content and guides of implementation: https://www.w3.org/TR/wai-aria-1.1/
+
+	* Curious about the benefits of accessing content offline? Totally check: https://developers.google.com/web/fundamentals/primers/service-workers/
