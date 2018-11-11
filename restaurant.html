@@ -21,23 +21,22 @@
   <header>
     <!-- Beginning nav -->
     <nav id="navegation">
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1><a href="./" title="Restaurant Reviews" aria-label="Reviews for current restaurant">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="./">Home</a></li>
+    <ul id="breadcrumb" aria-label="Breadcrumb" role="Current Location in the page">
+      <li><a href="./"  aria-label="Home button">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
   </header>
   <!-- End header -->
-  <button onclick="topFunction()" id="go-up" title="Go up">Top</button>
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
   <div id="onemap">
     <section id="map-container">
-        <div id="map"></div>
+        <div id="map" role="application" aria-label="Map with current restaurant location marker"></div>
     </section>
   </div>
     <!-- End map -->
@@ -45,18 +44,19 @@
 
   <section>
     <div id="restaurant-container">
-      <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img" alt="one of our beautiful locations around New York, ready to provide top quality food for our customers!">
-      <p id="restaurant-cuisine"></p>
-      <p id="restaurant-address"></p>
-      <table id="restaurant-hours"></table>
+      <h1 id="restaurant-name" aria-label="Restaurant name"></h1>
+      <img id="restaurant-img" aria-label="one of our beautiful locations around New York, ready to provide top quality food for our customers!">
+      <p id="restaurant-cuisine" aria-label="restaurant-cuisine"></p>
+      <p id="restaurant-address" aria-label="Restaurant address"></p>
+      <table id="restaurant-hours" aria-label="Restaurant schedule"></table>
     </div>
+    <button onclick="topFunction()" id="go-up" title="Go up">Top</button>
   </section>
 
     <!-- end restaurant -->
     <!-- Beginning reviews -->
   <div id="reviews">
-    <section id="reviews-container">
+    <section id="reviews-container" aria-label="What our customers think about our location">
       <ul id="reviews-list"></ul>
     </section>
   </div>
@@ -66,8 +66,8 @@
 
   <!-- Beginning footer -->
 
-  <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+  <footer id="footer" role="Site information" aria-label="Legal Information">
+    Copyright (c) 2017 <a href="./"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
   <!-- End footer -->
