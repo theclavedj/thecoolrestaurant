@@ -96,6 +96,7 @@
   .inside #map-container { /*container of the map displayed*/
       min-width: 360px;
       min-height: 380px;
+      position:-webkit-sticky;
       position:sticky;
       align-items: center;
       margin-left: auto;
